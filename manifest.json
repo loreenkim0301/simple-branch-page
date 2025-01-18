@@ -1,0 +1,7 @@
+{
+  "name": "Simple Page Duplicator",
+  "id": "simple-page-duplicator",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "ui.html"
+}

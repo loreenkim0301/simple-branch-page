@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+  <body>
+    <button id="duplicatePageButton">Duplicate Page</button>
+    <script>
+      document.getElementById("duplicatePageButton").onclick = () => {
+        parent.postMessage({ pluginMessage: { action: "duplicatePage" } }, "*");
+      };
+    </script>
+  </body>
+</html>

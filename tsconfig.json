@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "lib": ["ES2015"], // "DOM" 제거
+    "types": ["@figma/plugin-typings"], // Figma API 타입 정의 포함
+    "strict": true,
+    "outDir": "./dist", // 컴파일 결과물 저장 디렉토리
+    "esModuleInterop": true
+  },
+  "include": ["./**/*.ts"], // 컴파일할 파일 경로
+  "exclude": ["node_modules"] // node_modules 제외
+}
